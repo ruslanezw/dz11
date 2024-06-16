@@ -137,7 +137,6 @@
     line-height: 22px;
     text-align: left;
     color: #3D3D3D;
-
 }
 
 .contact-green:nth-child(4) {
@@ -190,6 +189,7 @@
     text-decoration: none;
     display: block;
 }
+
 .link-footer:hover {
     color: #46A358;
 }
