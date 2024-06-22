@@ -8,6 +8,8 @@
 .offers-footer {
     display: flex;
     background-color: #FBFBFB;
+    padding: 25px 25px 24px 23px;
+    gap: 62px;
 }
 
 .offers-post {
@@ -15,21 +17,20 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 25px;
-    padding-right: 30px;
 }
 
 .line::before {
     content: "";
     position: absolute;
     background-color: #46A3581A;
-    width: 187px;
-    height: 1px;
-    transform: rotate(90deg);
-    top: 125px;
-    left: 131px;
+    width: 1px;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+}
+
+.offers-post:nth-child(-n+2) {
+    padding-right: 30px;
 }
 
 .offers-tittle {
@@ -49,10 +50,6 @@
 .offers-email {
     display: flex;
     flex-direction: column;
-    padding-top: 24px;
-    padding-right: 25px;
-    padding-bottom: 24px;
-    padding-left: 62px;
 }
 
 .email-btn {
@@ -73,7 +70,6 @@
     font-weight: 400;
     line-height: 22px;
     margin-top: 18px;
-    margin-bottom: 25px;
 }
 
 .btn-email {
@@ -115,13 +111,11 @@
     background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
     border-top: 1px solid #46A358;
     border-bottom: 1px solid #46A358;
+    padding: 25px 22px 19px 23px;
 }
 
 .logo-contact-green {
     width: 150px;
-    padding-top: 27px;
-    padding-bottom: 27px;
-    padding-left: 23px;
 }
 
 .contact-green {
@@ -139,10 +133,6 @@
     color: #3D3D3D;
 }
 
-.contact-green:nth-child(4) {
-    padding-right: 22px;
-}
-
 .menu-footer {
     display: flex;
     justify-content: left;
@@ -155,6 +145,7 @@
     display: flex;
     flex-direction: column;
     padding: 33px 164px 29px 25px;
+    gap: 8px;
 }
 
 .menu-footer-help {
@@ -163,6 +154,7 @@
     padding-top: 33px;
     padding-right: 129px;
     padding-bottom: 29px;
+    gap: 8px;
 }
 
 .menu-footer-categories {
@@ -171,6 +163,7 @@
     padding-top: 33px;
     padding-right: 173px;
     padding-bottom: 29px;
+    gap: 8px;
 }
 
 .categories-menu-footer {
@@ -178,7 +171,6 @@
     font-weight: 700;
     line-height: 18px;
     color: #3D3D3D;
-    margin-bottom: 8px;
 }
 
 .link-footer {
@@ -231,15 +223,18 @@
     border: 1px solid #46A35833
 }
 
-.date-greenshope {
+.date-footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 13px;
+}
+
+.date-greenshope {
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
     color: #3D3D3D;
-    padding-bottom: 13px;
 }
 
 .menu-footer-accept {
